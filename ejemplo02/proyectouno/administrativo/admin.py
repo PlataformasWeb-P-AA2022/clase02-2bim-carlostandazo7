@@ -11,7 +11,7 @@ class EstudianteAdmin(admin.ModelAdmin):
     # por cada registro
     # se deja de usar la representación (str) 
     # de la clase 
-    list_display = ('nombre', 'apellido', 'cedula', 'edad')
+    list_display = ('nombre', 'apellido', 'cedula', 'edad', 'tipo_estudiante')
     search_fields = ('nombre', 'cedula', 'apellido')
 
 # admin.site.register se lo altera
